@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="image">
+                <img src="{{ url_for('static', filename='img/logo.svg') }}" alt="Minha Imagem">
+
+            </div>
+            <div class="escrita">
+                <h1>Bem-vindo ao K & K <h1> 
+                <h4>seu novo jeito de organizar tarefas!</h4>
+                <p>Aqui, produtividade e simplicidade andam lado a lado.</p>
+            </div>
+            <button class="button"><a href="pags/inicial.html">ORGANIZAR TAREFAS</a></button>
+        </div>
+    </main>
+</body>
+</html>

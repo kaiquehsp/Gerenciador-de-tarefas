@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Space Grotesk", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-blend-mode: overlay; 
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    
+    }
+
+.image img{
+    max-height: 150px;
+    max-width: auto;
+    
+}
+
+
+.escrita{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.escrita h1{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.escrita h4{
+    margin-bottom: 10px;
+}
+
+.escrita p{
+    margin-bottom: 40px;
+}
+
+.button{
+    
+    min-width: 200px;
+    min-height: 60px;
+    background-color: #8DC63F;
+    border-radius: 10%;
+    border: 2px solid black;
+    
+}
+
+a {
+    text-decoration: none;
+	color: rgb(0, 0, 0); /* cor normal */
+}
+
+a:hover {
+	color: #000000; /* quando passa o mouse */
+}
+
+a:visited {
+	color: rgb(0, 0, 0); /* clicado */
+}
